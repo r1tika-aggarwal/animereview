@@ -1,0 +1,214 @@
+/* navigation bar */
+.container-fluid{
+    padding: .8rem;
+}
+
+.nav-item{
+    padding: 0px 5px;
+}
+.nav-link{
+    color: #DC5F00;
+    font-weight: lighter;
+}
+
+.navbar-brand{
+    font-family: 'Source Serif Pro', serif;
+    padding-left: 15px;
+}
+.navbar{
+    padding: 4% 8% 2% 8%;
+    background-color: black;
+}
+
+/* title page */
+.title-container{
+    position: relative;
+}
+.title-gif{
+    width: 100%;
+}
+.main-heading{
+    position: absolute;
+    top: 14rem;
+    left: 20rem;
+    text-align: center;
+    color: #DC5F00;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/* title page media query */
+
+@media (max-width:620px){
+    .title-container{
+        position: relative;
+    }
+    .main-heading{
+        position: absolute;
+        font-size: 1rem;
+        top: 40%;
+    }
+}
+
+/* reviews section */
+
+#reviews{
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.rev-head{
+    padding-bottom: 2.5rem;
+}
+
+.review-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexitem{
+    width: 19rem;
+}
+
+.animenames:hover{
+    color: #676FA3;
+}
+
+.review-images{
+    width: 18.75rem;
+    height: 13rem;
+    padding-bottom: .8rem;
+    padding-top: .5rem;
+}
+
+/* all time fav section */
+
+hr{
+    border: 0.2rem solid #D49463 ;
+    width: 15%;
+    border-radius: 0.1rem;
+    margin-left: 42.5%;
+    margin-bottom: 0.5rem;
+}
+
+.alltime-heading{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#all-time{
+    background-color: #E3B999;
+    color: #543117;
+    padding: 3rem;
+    margin: 1.5rem;
+}
+
+.aotimage{
+    height: 24rem;
+    width: 38rem;
+    flex: 2;
+}
+
+.aotdiv{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.aotcontentdiv{
+    width: 50%;
+    flex: 1;
+    line-height: 1.6rem;
+}
+
+.aotcontentdiv > p {
+    font-family: Georgia,Times New Roman,serif;
+    color: #22170F;
+}
+
+.aotcontentdiv > h3{
+    font-family: freight-big-pro;
+    font-weight: 600;
+    font-size: 3rem;
+    padding-bottom: 0.3rem;
+}
+
+@media(max-width:770px){
+    .aotimage{
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+}
+
+/* watched collections section */
+
+.watched-heading{
+    padding-bottom: 3rem;
+}
+
+#watched{
+    padding: 3rem;
+}
+
+.content-mine{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.anime-image{
+    width: 200px;
+    width: 10%;
+    height: 200px;
+    height: 10%;
+    border-radius: 100%;
+}
+
+em{
+    margin-left: 1%;
+    font-size: 1.5rem;
+}
+
+.slide-number{
+    font-weight: lighter;
+    font-size: 0.5rem;
+    padding-top: 3rem;
+}
+
+.button-mine{
+    background-color: #E9D195;
+    border-radius: 90%;
+}
+
+/* contact me section */
+
+#contact{
+    background-color: #edc4b3;
+    padding: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.mail-button{
+    background-color: #ffedd8;
+    color: #583101;
+    margin: 0.5rem;
+}
+
+.mdl-button{
+    background-color: #8a5a44;
+    color: #ffedd8;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+}
+
+#footer > p {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
